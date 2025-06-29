@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Databricks
+.dbc
+*.dbc
+*.dbarchive
+*.databrickscfg
+*.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local storage
+*.sqlite
+*.db
+
+# AWS / Databricks credentials
+*.pem
+*.key
+*.crt
+*.der
+
+# VSCode
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+
+# Jupyter runtime
+.ipynb_checkpoints
+profile_default/
